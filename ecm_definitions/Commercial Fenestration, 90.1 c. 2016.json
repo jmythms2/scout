@@ -1,0 +1,100 @@
+{
+  "name": "Commercial Fenestration, 90.1 c. 2016",
+  "climate_zone": "all",
+  "bldg_type": "all commercial",
+  "structure_type": "all",
+  "end_use": ["heating", "cooling"],
+  "fuel_type": "all",
+  "technology": [
+      "windows conduction",
+      "windows solar"],
+  "market_entry_year": 2018,
+  "market_entry_year_source": {
+    "notes": "Year in which standard went into effect",
+    "source_data": {
+      "title": "2018 International Energy Conservation Code",
+      "author": null,
+      "organization": "International Code Council",
+      "year": 2018,
+      "pages": null,
+      "URL": "https://codes.iccsafe.org/public/document/iecc2018"
+    }
+  },
+  "market_exit_year": null,
+  "market_exit_year_source": null,
+  "energy_efficiency": {
+      "AIA_CZ1": {
+        "windows conduction": 3.35,
+        "windows solar": 0.4},
+      "AIA_CZ2": {
+        "windows conduction": 3.22,
+        "windows solar": 0.38},
+      "AIA_CZ3": {
+        "windows conduction": 3.22,
+        "windows solar": 0.36},
+      "AIA_CZ4": {
+        "windows conduction": 3.06,
+        "windows solar": 0.27},
+      "AIA_CZ5": {
+        "windows conduction": 2.74,
+        "windows solar": 0.25}
+      },
+  "energy_efficiency_units": {
+      "windows conduction": "R value",
+      "windows solar": "SHGC"
+    },
+  "energy_efficiency_source": {
+    "notes": "Based on assumptions and 90.1 climate to AIA climate conversions here: https://docs.google.com/spreadsheets/d/1XdnJQ5ujLBfvRvkJ117dxpMlLdbBCzYSMQ-Z7HK0-ec/edit#gid=1968005613",
+    "source_data": {
+      "title": "ASHRAE Standard 90.1-2016",
+      "author": null,
+      "organization": "ASHRAE",
+      "year": 2016,
+      "pages": null,
+      "URL": "https://www.energycodes.gov/resource-center/training-courses/ansiashraeies-standard-901-2016"}
+    },
+  "installed_cost": 56.20,
+  "cost_units": "2016$/ft^2 glazing",
+  "installed_cost_source": {
+    "notes": "Assume baseline fenestration cost from Scout data",
+    "source_data": {
+      "title": "Scout - Baseline Envelope and MELs Cost, Performance, and Lifetime Data ('cpl_envelope_mels.json')",
+      "author": null,
+      "organization": "U.S. Department of Energy",
+      "year": 2018,
+      "pages": null,
+      "URL": "https://github.com/trynthink/scout/blob/master/cpl_envelope_mels.json"
+    }
+  },
+  "product_lifetime": 25,
+  "product_lifetime_units": "years",
+  "product_lifetime_source": {
+    "notes": "Assumes midpoint of lifetime for aluminum and wood window assemblies",
+    "source_data": {
+      "title": "Study of the Life Expectancy of Home Components",
+      "author": null,
+      "organization": "National Association of Homebuilders",
+      "year": 2007,
+      "pages": 15,
+      "URL": "http://stevesmallman.com/wp-content/uploads/2013/05/NAHB-Lifetimes.pdf"
+    }
+  },
+  "measure_type": "full service",
+  "fuel_switch_to": null,
+  "market_scaling_fractions": null,
+  "market_scaling_fractions_source": "NA",
+  "_description": "Aluminum frame commercial window assembly that meets the IECC performance standard in 2018",
+  "_notes": null,
+  "_added_by": {
+    "name": "Valerie Nubbe",
+    "organization": "BTO",
+    "email": "valerie.nubbe@ee.doe.gov",
+    "timestamp": "1/04/2018"
+  },
+  "_updated_by": {
+    "name": "Jared Langevin",
+    "organization": "Lawrence Berkeley National Laboratory",
+    "email": "jared.langevin@lbl.gov",
+    "timestamp": "Tue Sep 25 14:58:38 EDT 2018"
+  }
+}
