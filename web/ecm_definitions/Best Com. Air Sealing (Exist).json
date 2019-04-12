@@ -1,8 +1,8 @@
 {
-  "name": "Best Commercial Air Sealing",
+  "name": "Best Com. Air Sealing (Exist)",
   "climate_zone": "all",
   "bldg_type": "all commercial",
-  "structure_type": "all",
+  "structure_type": "existing",
   "end_use": ["heating", "cooling"],
   "fuel_type": "all",
   "technology": "infiltration",
@@ -32,12 +32,10 @@
       "pages": null,
       "URL": "https://www.ashrae.org/technical-resources/aedgs/50-percent-aedg-free-download"}
     },
-  "installed_cost": {
-    "new": 0.46,
-    "existing": 2.22},
+  "installed_cost": 2.22,
   "cost_units": "2017$/ft^2 wall",
   "installed_cost_source": {
-    "notes": "Based on cost premium-per-% performance improvement implied by residential 'best' air sealing measure. Using AIA CZ1 as a benchmark, the residential measure shows a cost premium of $0.31/ft^2 wall per 67% performance improvement in new buildings in 2017 and $2/ft^2 wall per 90% performance improvement in existing buildings in 2017; thus the cost premium to add to the baseline commercial infiltration cost of $0/ft^2 wall is $0.46/ft^2 wall in new buildings ($0.31/ft^2 roof premium / 67% improvement)*(99% improvement for commercial infiltration in new buildings in AIA CZ1 in 2017 (1 - 0.004/0.38)) and $2.2/ft^2 wall in existing buildings ($2.00/ft^2 roof premium / 90% improvement)*(99.7% improvement for commercial infiltration in existing buildings in AIA CZ1 in 2017 (1 - 0.004/1.5))",
+    "notes": "Based on cost premium-per-% performance improvement implied by residential 'best' air sealing measure. Using AIA CZ1 as a benchmark, the residential measure shows a cost premium of $2/ft^2 wall per 90% performance improvement in existing buildings in 2017; thus the cost premium to add to the baseline commercial infiltration cost of $0/ft^2 wall is $2.2/ft^2 wall in existing buildings ($2.00/ft^2 wall premium / 90% improvement)*(99.7% improvement for commercial infiltration in existing buildings in AIA CZ1 in 2017 (1 - 0.004/1.5))",
     "source_data": {
       "title": "Scout Baseline Envelope Cost and Performance Data",
       "author": null,
@@ -70,7 +68,7 @@
     "name": "Jared Langevin",
     "organization": "Lawrence Berkeley National Laboratory",
     "email": "jared.langevin@lbl.gov",
-    "timestamp": "Fri Sep 21 16:33:51 EDT 2018"
+    "timestamp": "Fri Nov 16 10:28:47 EST 2018"
   },
   "_updated_by": {
     "name": null,

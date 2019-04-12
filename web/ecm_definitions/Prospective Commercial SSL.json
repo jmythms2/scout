@@ -1,5 +1,5 @@
 {
-  "name": "Prospective Commercial SSL-Warm White",
+  "name": "Prospective Commercial SSL",
   "climate_zone": "all",
   "bldg_type": "all commercial",
   "structure_type": "all",
@@ -20,7 +20,7 @@
   },
   "market_exit_year": null,
   "market_exit_year_source": null,
-  "energy_efficiency": 220,
+  "energy_efficiency": 226,
   "energy_efficiency_units": "lm/W",
   "energy_efficiency_source": {
     "notes": "From Table 2 in the SSL section of the BTO MYPP",
@@ -63,7 +63,7 @@
   "fuel_switch_to": null,
   "market_scaling_fractions": null,
   "market_scaling_fractions_source": null,
-  "_description": "Solid state warm white lamps/luminaires for the commercial sector",
+  "_description": "Solid state cool white lamps/luminaires for the commercial sector",
   "_notes": null,
   "_added_by": {
     "name": "Valerie Nubbe",
@@ -75,6 +75,6 @@
     "name": "Chioke Harris",
     "organization": "National Renewable Energy Laboratory",
     "email": "chioke.harris@nrel.gov",
-    "timestamp": "2018-09-26 22:30 UTC"
+    "timestamp": "2018-09-26 22:20 UTC"
   }
 }
