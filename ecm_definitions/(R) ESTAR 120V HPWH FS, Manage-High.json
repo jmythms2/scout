@@ -1,6 +1,7 @@
 {
-  "name": "(R) ESTAR 120V HPWH FS",
+  "name": "(R) ESTAR 120V HPWH FS, Manage-High",
   "_description": "ENERGY STAR 120V electric storage heat pump water heater in 2024, existing homes fuel switching",
+  "panel_upgrade": ["high efficiency upgrade", "panel management"],
   "ref_analogue": true,
   "measure_type": "full service",
   "market_entry_year": 2024,
@@ -30,12 +31,11 @@
       "url": "https://www.energystar.gov/sites/default/files/asset/document/ENERGY%20STAR%20Residential%20Water%20Heaters%20Version%205.0%20Specification%20and%20Pt.ner%20Commitments.pdf"
     }
   },
-  "installed_cost": 1800.0,
+  "installed_cost": 1550.0,
   "cost_units": "2022$/unit",
   "installed_cost_source": {
     "notes": [
-      "Average of ENERGY STAR v4.0 total installed cost range",
-      "added costs of $250 for a 120V circuit for the water heater based on the lower bound of the upgrade/new branch circuit cost in NV5 report"
+      "Average of ENERGY STAR v4.0 total installed cost range, no added circuit costs assumed"
     ],
     "source_data": [
       {
@@ -44,13 +44,6 @@
         "year": 2023,
         "pages": 65,
         "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf"
-      },
-      {
-        "title": "Service Upgrades for Electrification Retrofits Study Final Report",
-        "author": "NV5 and Redwood Energy",
-        "year": 2022,
-        "pages": 33,
-        "url": "https://pda.energydataweb.com/api/view/2635/Service%20Upgrades%20for%20Electrification%20Retrofits%20Study%20FINAL.pdf"
       }
     ]
   },

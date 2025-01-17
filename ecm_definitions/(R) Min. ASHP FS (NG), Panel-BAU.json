@@ -1,9 +1,9 @@
 {
-  "name": "(R) Min. ASHP FS (NG), Panel-High",
+  "name": "(R) Min. ASHP FS (NG), Panel-BAU",
   "_description": "Minimum efficiency air source heat pump heating and cooling, fuel switching from gas furnace, replace panel.",
-  "panel_upgrade": ["high efficiency upgrade", "panel replacement"],
+  "panel_upgrade": ["bau", "panel replacement"],
   "ref_analogue": true,
-  "htcl_tech_link": "ng furnace+cac&rac-highreplace",
+  "htcl_tech_link": "ng furnace+cac&rac-baureplace",
   "measure_type": "full service",
   "market_entry_year": 2024,
   "market_exit_year": null,

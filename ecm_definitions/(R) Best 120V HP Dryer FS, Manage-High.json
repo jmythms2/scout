@@ -1,6 +1,7 @@
 {
-  "name": "(R) Best HP Dryer FS",
+  "name": "(R) Best 120V HP Dryer FS, Manage-High",
   "_description": "Fuel switch from gas to HP dryer (assume maps to best available category)",
+  "panel_upgrade": ["high efficiency upgrade", "panel management"],
   "ref_analogue": true,
   "measure_type": "full service",
   "market_entry_year": 2024,
@@ -28,10 +29,10 @@
       "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf"
     }
   },
-  "installed_cost": 1810.0,
+  "installed_cost": 1110.0,
   "cost_units": "2022$/unit",
   "installed_cost_source": {
-    "notes": "Total installed (existing) cost for High dryer in 2022. Add $700 for new 240V circuit cost from NV5 report",
+    "notes": "Total installed (existing) cost for High dryer in 2022.",
     "source_data": {
       "title": "Updated Buildings Sector Appliance and Equipment Costs and Efficiencies: Appendix A: Clothes Dryer (Gas)",
       "author": "U.S. Energy Information Administration",
@@ -51,13 +52,6 @@
       "year": 2023,
       "pages": 98,
       "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf"
-      },
-      {
-        "title": "Service Upgrades for Electrification Retrofits Study Final Report",
-        "author": "NV5 and Redwood Energy",
-        "year": 2022,
-        "pages": 33,
-        "url": "https://pda.energydataweb.com/api/view/2635/Service%20Upgrades%20for%20Electrification%20Retrofits%20Study%20FINAL.pdf"
       }
   ]
   },

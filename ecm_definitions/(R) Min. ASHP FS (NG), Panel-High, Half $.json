@@ -1,5 +1,5 @@
 {
-  "name": "(R) Min. ASHP FS (NG), Panel-High",
+  "name": "(R) Min. ASHP FS (NG), Panel-High, Half $",
   "_description": "Minimum efficiency air source heat pump heating and cooling, fuel switching from gas furnace, replace panel.",
   "panel_upgrade": ["high efficiency upgrade", "panel replacement"],
   "ref_analogue": true,
@@ -60,12 +60,12 @@
   },
   "installed_cost": {
     "electricity": 0.0,
-    "natural gas": 9208.0
+    "natural gas": 5803.0
   },
   "cost_units": "2022$/unit",
   "installed_cost_source": {
     "notes": [
-      "Retail (new) and total installed (existing) cost for min. efficiency ASHPs in 2023, plus $2398 panel upgrade cost from Sean"
+      "Retail (new) and total installed (existing) cost for min. efficiency ASHPs in 2023, plus $2398 panel upgrade cost from Sean, half cost for heating portion of HP"
     ],
     "source_data": [
       {

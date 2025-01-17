@@ -1,7 +1,8 @@
 {
-  "name": "(R) Ref. Case Resist. WH FS",
+  "name": "(R) Ref. Case Resist. WH FS, No Panel-Mod",
   "_description": "Typical residential electric resistance storage water heater, fuel switching",
-  "ref_analogue": false,
+  "panel_upgrade": ["moderate efficiency upgrade", "no panel management"],
+  "ref_analogue": true,
   "measure_type": "full service",
   "market_entry_year": 2024,
   "market_exit_year": null,
@@ -30,10 +31,10 @@
       "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf"
     }
   },
-  "installed_cost": 1605.0,
+  "installed_cost": 2289,
   "cost_units": "2022$/unit",
   "installed_cost_source": {
-    "notes": "Total installed (existing) cost range, plus $700 (existing), the upper bound of the upgrade/new branch circuit cost in NV5 report",
+    "notes": "Total installed (existing) cost range, plus $1384 cost of additional 240V circuit from Sean",
     "source_data": [
       {
         "title": "Updated Buildings Sector Appliance and Equipment Costs and Efficiencies: Appendix A",
@@ -41,13 +42,6 @@
         "year": 2023,
         "pages": 65,
         "url": "https://www.eia.gov/analysis/studies/buildings/equipcosts/pdf/full.pdf"
-      },
-      {
-        "title": "Service Upgrades for Electrification Retrofits Study Final Report",
-        "author": "NV5 and Redwood Energy",
-        "year": 2022,
-        "pages": 33,
-        "url": "https://pda.energydataweb.com/api/view/2635/Service%20Upgrades%20for%20Electrification%20Retrofits%20Study%20FINAL.pdf"
       }
     ]
   },
